@@ -67,6 +67,15 @@ member: uid=jdoe,dc=example,dc=com
 member: uid=flounder,dc=example,dc=com
 objectClass: groupOfNames
 
+# GitHub Admin Group
+dn: cn=GitHub Admins,ou=Groups,dc=example,dc=com
+cn: GitHub Admins
+ou: Groups
+description: Users who are GitHub administrators
+member: uid=jdoe,dc=example,dc=com
+member: uid=flounder,dc=example,dc=com
+objectClass: groupOfNames
+
 # Special account for authentication
 dn: uid=bot,ou=System,dc=example,dc=com
 uid: bot
