@@ -2,4 +2,4 @@
 random junk
 
 ## This is sweet documentation!
-So sweet!
+So sweet! Cool!
