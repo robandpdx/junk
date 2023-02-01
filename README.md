@@ -15,3 +15,6 @@ This is the start of new feature 1. More...
 
 ## New feature 3
 This is new feature 3.
+
+## New feature 4
+This is new feature 4.
