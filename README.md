@@ -17,4 +17,4 @@ This is the start of new feature 1. More...
 This is new feature 3.
 
 ## New feature 4
-This is new feature 4. This is how this feature works.
+This is new feature 4.
