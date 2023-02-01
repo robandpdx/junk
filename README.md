@@ -8,3 +8,4 @@ So sweet! Cool! More cool! More cooler!
 Wait a sec...This is signed!  
 
 ## new features are ready
+This new feature is ok.
