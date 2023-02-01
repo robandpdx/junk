@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 # I use this file to test my launch config in vscode
+# More instructions on using this file here
 
 class MegaGreeter
   attr_accessor :names
