@@ -2,7 +2,7 @@
 random junk
 
 ## This is sweet documentation!
-So sweet! Cool! More cool! More cooler!
+So sweet! Cool! More cool! So cool!
 
 ## Woah!
 Wait a sec...This is signed!  
