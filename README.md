@@ -18,3 +18,6 @@ This is new feature 3.
 
 ## New feature 4
 This is new feature 4.
+
+## New feature 5
+This is new feature 5.
