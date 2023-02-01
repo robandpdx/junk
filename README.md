@@ -20,4 +20,4 @@ This is new feature 3.
 This is new feature 4.
 
 ## New feature 5
-This is new feature 5.
+This is new feature 5. Notes here...
