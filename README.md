@@ -21,3 +21,6 @@ This is new feature 4.
 
 ## New feature 5.
 This is new feature 5. So cool...
+
+## New feature 7
+This is new feature 7. This is how it works...
