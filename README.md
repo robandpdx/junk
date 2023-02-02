@@ -10,17 +10,11 @@ Wait a sec...This is signed!
 ## new features are ready
 This new feature is ok.
 
-## New feature 1
-This is the start of new feature 1. More...
+## new thing 1
+This is a cool new thing. And here is how it works. But sometimes it breaks if you do this...
 
-## New feature 3
-This is new feature 3.
+## my next thing is ready
+More cool stuff...
 
-## New feature 4
-This is new feature 4.
-
-## New feature 5
-This is new feature 5. So cool...
-
-## New feature 7
-This is new feature 7. This is how it works...
+## Here is another change!!
+super fun new change!
