@@ -12,3 +12,6 @@ This new feature is ok.
 
 ## new thing 1
 This is a cool new thing. And here is how it works...
+
+## my next thing is ready
+More cool stuff...
