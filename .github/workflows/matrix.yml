@@ -1,0 +1,47 @@
+name: Matrix fun
+
+on:
+  workflow_dispatch:
+    inputs:
+      runA:
+        description: 'A?'
+        required: true
+        default: true
+        type: boolean
+      runB:
+        description: 'A?'
+        required: true
+        default: true
+        type: boolean
+      runC:
+        description: 'A?'
+        required: true
+        default: true
+        type: boolean
+      run1:
+        description: 'A?'
+        required: true
+        default: true
+        type: boolean
+      run2:
+        description: 'A?'
+        required: true
+        default: true
+        type: boolean
+      run3:
+        description: 'A?'
+        required: true
+        default: true
+        type: boolean
+        
+jobs:
+  jobby:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        letters: [ a, b, c ]
+        numbers: [ 1, 2, 3 ]
+    
+    steps:
+      - run: echo ${{ matrix.letters }} ${{ matrix.numers }}
+        if: ${{ (runA && matrix.letters == "a") || (runB && matrix.letters == "b") || (runC && matrix.letters == "c") && (run1 && matrix.numbers == "1") || (run2 && matrix.numbers == "2") || (run3 && matrix.numbers == "3") }}
