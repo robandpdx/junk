@@ -44,4 +44,4 @@ jobs:
     
     steps:
       - run: echo ${{ matrix.letters }} ${{ matrix.numers }}
-        if: ${{ (github.event.inputs.runA && matrix.letters=="a") || (github.event.inputs.runB && matrix.letters=="b") || (github.event.inputs.runC && matrix.letters=="c") && (github.event.inputs.run1 && matrix.numbers=="1") || (github.event.inputs.run2 && matrix.numbers=="2") || (github.event.inputs.run3 && matrix.numbers=="3") }}
+        if: ${{ (github.event.inputs.runA && matrix.letters=='a') || (github.event.inputs.runB && matrix.letters=='b') || (github.event.inputs.runC && matrix.letters=='c') && (github.event.inputs.run1 && matrix.numbers=='1') || (github.event.inputs.run2 && matrix.numbers=='2') || (github.event.inputs.run3 && matrix.numbers=='3') }}
