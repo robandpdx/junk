@@ -45,5 +45,3 @@ jobs:
     steps:
       - run: echo ${{ matrix.letters }} ${{ matrix.numbers }}
         if: ${{ ((github.event.inputs.runA=='true' && matrix.letters=='a') || (github.event.inputs.runB=='true' && matrix.letters=='b') || (github.event.inputs.runC=='true' && matrix.letters=='c')) && ((github.event.inputs.run1=='true' && matrix.numbers=='1') || (github.event.inputs.run2=='true' && matrix.numbers=='2') || (github.event.inputs.run3=='true' && matrix.numbers=='3')) }}
-      - run: echo A1 only
-        if: ${{ (github.event.inputs.runA=='true' && matrix.letters=='a') && (github.event.inputs.run1=='true' && matrix.numbers=='1') }}
