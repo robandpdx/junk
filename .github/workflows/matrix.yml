@@ -9,27 +9,27 @@ on:
         default: true
         type: boolean
       runB:
-        description: 'A?'
+        description: 'B?'
         required: true
         default: true
         type: boolean
       runC:
-        description: 'A?'
+        description: 'C?'
         required: true
         default: true
         type: boolean
       run1:
-        description: 'A?'
+        description: '1?'
         required: true
         default: true
         type: boolean
       run2:
-        description: 'A?'
+        description: '2?'
         required: true
         default: true
         type: boolean
       run3:
-        description: 'A?'
+        description: '3?'
         required: true
         default: true
         type: boolean
