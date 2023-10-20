@@ -17,7 +17,7 @@ jobs:
         env:
           GITHUB_API_URL: ${{ env.GHES_API_URL }}
         with:
-          github-token: ${{ secrets.GHES_TOKEN }}
+          github-token: xxxxx
           script: |
             console.log(`Demonstrate the resolution of GITHUB_API_URL environment variable...`);
             console.log(`GITHUB_API_URL: ${process.env.GITHUB_API_URL}`);
