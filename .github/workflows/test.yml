@@ -1,0 +1,23 @@
+name: Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    env:
+      GHES_API_URL: https://my.github-enterprise-server.com/api/v3
+
+    steps:
+      - name: Demonstrate GITHUB_API_URL
+        uses: actions/github-script@v6
+        env:
+          GITHUB_API_URL: ${{ env.GHES_API_URL }}
+        with:
+          github-token: ${{ secrets.SOURCE_ADMIN_TOKEN }}
+          script: |
+            console.log(`Demonstrate the resolution of GITHUB_API_URL environment variable...`);
+            console.log(`GITHUB_API_URL: ${process.env.GITHUB_API_URL}`);
