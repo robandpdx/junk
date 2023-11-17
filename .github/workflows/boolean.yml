@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Run even tests
       run: echo "running even tests"
-      if: ${{ 'matrix.run_even_tests' }}
+      if: ${{ matrix.run_even_tests }}
     - name: Run odd tests
       run: echo "running odd tests"
-      if: ${{ ! 'matrix.run_even_tests'  }}
+      if: ${{ ! matrix.run_even_tests  }}
