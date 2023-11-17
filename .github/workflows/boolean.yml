@@ -1,0 +1,16 @@
+name: boolean test
+on:
+  workflow_dispatch
+jobs:
+  build-macos-cmake:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        run_even_tests: [true, false]
+    steps:
+    - name: Run even tests
+      run: echo "running even tests"
+      if: ${{ 'matrix.run_even_tests' }}
+    - name: Run odd tests
+      run: echo "running odd tests"
+      if: ${{ ! 'matrix.run_even_tests'  }}
