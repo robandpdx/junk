@@ -13,11 +13,11 @@ jobs:
             script: |
                 const pull_number = context.payload.pull_request.number;
                 await github.pulls.createReview({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: pull_number,
-                body: '👋🏻🤖 The latest probot uses a newer octokit, which is not compatible with nock.
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: pull_number,
+                  body: '👋🏻🤖 The latest probot uses a newer octokit, which is not compatible with nock.
 
-                The latest version of octokit uses [undici http client](https://github.com/nodejs/undici). Nock does not support undici. More details [here](https://github.com/nock/nock/issues/2183).',
-                event: 'REQUEST_CHANGES'
+                  The latest version of octokit uses [undici http client](https://github.com/nodejs/undici). Nock does not support undici. More details [here](https://github.com/nock/nock/issues/2183).',
+                  event: 'REQUEST_CHANGES'
                 });
