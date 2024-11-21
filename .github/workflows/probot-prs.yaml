@@ -1,4 +1,4 @@
-name: probot-prs
+name: Review Probot PRs
 on:
   pull_request:
     types: [opened, reopened]
