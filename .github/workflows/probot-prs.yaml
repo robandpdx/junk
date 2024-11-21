@@ -12,7 +12,10 @@ jobs:
           with:
             script: |
                 const pull_number = context.payload.pull_request.number;
-                await github.pulls.createReview({
+                const owner = context.repo.owner;
+                const repo = context.repo.repo;
+
+                await github.request(`POST /repos/${owner}/${repo}/pulls/${pull_number}/reviews`, {
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   pull_number: pull_number,
