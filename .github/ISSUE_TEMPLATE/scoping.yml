@@ -1,10 +1,10 @@
 name: Scoping Issue
-description: Use this template to outline the scope of a new project or feature.
-title: "[SCOPE] "
-labels: ["scope"]
-projects: []
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
 assignees:
-  - melithom
+  - octocat
 body:
   - type: markdown
     attributes:
