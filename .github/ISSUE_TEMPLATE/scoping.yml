@@ -1,0 +1,182 @@
+name: Scoping Issue
+description: Use this template to outline the scope of a new project or feature.
+title: "[SCOPE] "
+labels: ["scope"]
+assignees:
+  - melithom
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Project/Feature Overview
+        Provide a brief description of the project or feature. 
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: Project/Feature Overview
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Objectives
+        - List the primary objectives of this project or feature.
+        - Example: Improve user experience, increase performance, etc.
+
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Objectives
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Deliverables
+        - Detail the deliverables for this project or feature.
+        - Example: New API endpoint, updated UI, etc.
+
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Timeline
+        - Start Date: YYYY-MM-DD
+        - End Date: YYYY-MM-DD
+        ```python
+        from datetime import datetime
+
+        # Enter the start and end dates
+        start_date = "YYYY-MM-DD"
+        end_date = "YYYY-MM-DD"
+
+        # Calculate the duration between the two dates
+        start_date_obj = datetime.strptime(start_date, "%Y-%m-%d")
+        end_date_obj = datetime.strptime(end_date, "%Y-%m-%d")
+        duration = end_date_obj - start_date_obj
+
+        print(f"The Duration between {start_date} and {end_date} is {duration.days} days.")
+        ```
+
+  - type: input
+    id: start_date
+    attributes:
+      label: Start Date
+      placeholder: YYYY-MM-DD
+
+  - type: input
+    id: end_date
+    attributes:
+      label: End Date
+      placeholder: YYYY-MM-DD
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Level of Effort
+        - Weekly Hours: 
+        - Number of Weeks: 
+        ```python
+        # Enter the two numbers on the previous lines
+        weekly_hours = int(input("Enter weekly hours: "))
+        number_of_weeks = int(input("Enter number of weeks: "))
+
+        # Calculate the total level of effort
+        total_effort = weekly_hours * number_of_weeks
+        print(f"The Total LOE is {total_effort} hours.")
+        ```
+
+  - type: input
+    id: weekly_hours
+    attributes:
+      label: Weekly Hours
+
+  - type: input
+    id: number_of_weeks
+    attributes:
+      label: Number of Weeks
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Customer Timezone
+        Select the timezone of the customer.
+
+  - type: dropdown
+    id: customer_timezone
+    attributes:
+      label: Customer Timezone
+      options:
+        - Eastern Time (ET)
+        - Central Time (CT)
+        - Mountain Time (MT)
+        - Pacific Time (PT)
+        - EMEA 
+        - APAC
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Offering
+        Select the offerings that apply.
+
+  - type: checkboxes
+    id: offering
+    attributes:
+      label: Offering
+      options:
+        - label: Actions Training
+        - label: Admin Training
+        - label: ADSEC
+        - label: CfB Training
+        - label: CfB Adoption at Scale
+        - label: Copilot Intermediate
+        - label: Developers Training
+        - label: Migration
+        - label: TAS
+        - label: Workflow Consultation
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Number of Engineers
+        Specify the number of engineers involved in this project.
+
+  - type: input
+    id: number_of_engineers
+    attributes:
+      label: Number of Engineers
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Requesting Dedicated PM
+        Indicate if you are requesting a dedicated project manager.
+
+  - type: checkboxes
+    id: requesting_dedicated_pm
+    attributes:
+      label: Requesting Dedicated PM
+      options:
+        - label: Yes
+        - label: No
+
+  - type: textarea
+    id: success_criteria
+    attributes:
+      label: Success Criteria
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional Notes
+        - Any additional information relevant to this project or feature.
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Additional Notes
