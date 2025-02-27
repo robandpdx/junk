@@ -5,7 +5,6 @@ labels: ["scope"]
 projects: []
 assignees:
   - melithom
-
 body:
   - type: markdown
     attributes:
