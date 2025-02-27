@@ -1,5 +1,5 @@
 name: Scoping Issue
-description: File a bug report.
+description: Create a scoping issue.
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
