@@ -2,6 +2,7 @@ name: Scoping Issue
 description: Use this template to outline the scope of a new project or feature.
 title: "[SCOPE] "
 labels: ["scope"]
+projects: []
 assignees:
   - melithom
 
