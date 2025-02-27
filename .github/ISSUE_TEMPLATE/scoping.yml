@@ -9,5 +9,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Project/Feature Overview
-        Provide a brief description of the project or feature. 
+        Thanks for taking the time to fill out this bug report!
