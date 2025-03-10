@@ -1,5 +1,5 @@
 name: Scoping Issue
-description: Create a scoping issue.
+description: Use this template to outline the scope of a new project or feature.
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
